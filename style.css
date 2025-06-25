@@ -1,36 +1,71 @@
 /* Mejoras para el tablero del minesweeper */
 .game-board {
+  /* Bordes redondeados para un aspecto más moderno */
   border-radius: 10px;
+
+  /* Sombra suave que da profundidad al tablero */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+  /* Gradiente elegante de azul a púrpura para el fondo */
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+
+  /* Espaciado interno para separar el contenido de los bordes */
   padding: 20px;
 }
 
 .cell {
+  /* Borde sólido gris claro para definir cada celda */
   border: 2px solid #ddd;
+
+  /* Bordes ligeramente redondeados para suavizar el aspecto */
   border-radius: 4px;
+
+  /* Texto en negrita para mejor legibilidad de los números */
   font-weight: bold;
+
+  /* Transición suave para todos los cambios de estilo */
   transition: all 0.2s ease;
+
+  /* Cursor de puntero para indicar que es clickeable */
   cursor: pointer;
 }
 
 .cell:hover {
+  /* Efecto de zoom sutil al pasar el mouse */
   transform: scale(1.05);
+
+  /* Sombra más pronunciada en hover para feedback visual */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 /* Botón de reinicio más atractivo */
 .reset-button {
+  /* Color de fondo rojo coral llamativo */
   background: #ff6b6b;
+
+  /* Texto blanco para contraste óptimo */
   color: white;
+
+  /* Eliminar borde por defecto del botón */
   border: none;
+
+  /* Espaciado interno generoso para hacer el botón más clickeable */
   padding: 10px 20px;
+
+  /* Bordes muy redondeados para un estilo tipo "pill" */
   border-radius: 25px;
+
+  /* Tamaño de fuente legible */
   font-size: 16px;
+
+  /* Cursor de puntero para indicar interactividad */
   cursor: pointer;
+
+  /* Transición suave solo para el color de fondo */
   transition: background 0.3s ease;
 }
 
 .reset-button:hover {
+  /* Color más oscuro en hover para feedback visual */
   background: #ff5252;
 }
